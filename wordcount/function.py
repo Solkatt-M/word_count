@@ -23,3 +23,7 @@ def count(request):
 		{'text':user_text,
 		 'count':total_count,
 		 'sorted':word_sorted,})
+
+
+def about(request):
+	return render(request, 'about.html')
